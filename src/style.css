@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 500px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.pre{
+    overflow: auto; 
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(162, 224, 70);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
